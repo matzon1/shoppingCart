@@ -20,7 +20,7 @@ function App() {
         <Route path="/shoppingCart/about" element={<About/>}/>
         </Routes>
         
-
+        
             </ShoppingCartProvider>
   )
 }
