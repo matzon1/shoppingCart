@@ -8,13 +8,13 @@ export function NavBar() {
     <NavbarBS sticky="top" className="bg-white shadow-sm mb-3">
       <Container className="me-auto">
         <Nav>
-          <Nav.Link to="/" as={NavLink}>
+          <Nav.Link to="/shoppingCart" as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
+          <Nav.Link to="/shoppingCart/store" as={NavLink}>
             Store
           </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
+          <Nav.Link to="/shoppingCart/about" as={NavLink}>
             About
           </Nav.Link>
         </Nav>
