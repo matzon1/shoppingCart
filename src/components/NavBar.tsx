@@ -9,11 +9,11 @@ export function NavBar() {
       <Container className="me-auto">
         <Nav >
           <div className="d-flex justify-content-center">
-          <Nav.Link to="/shoppingCart" as={NavLink}>
+          <Nav.Link to="/shoppingCart/" as={NavLink}>
             <img width="60px" src="./imgs/atix-logo.jpg"/>
           </Nav.Link>
           <div className="d-flex align-items-center display-10">
-          <Nav.Link to="/shoppingCart" as={NavLink}>
+          <Nav.Link to="/shoppingCart/" as={NavLink}>
             Inicio
           </Nav.Link>
           <Nav.Link to="/shoppingCart/store" as={NavLink}>
