@@ -15,9 +15,9 @@ function App() {
     <Container className="mb-4">
 
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/store" element={<Store/>}/>
-        <Route path="/about" element={<About/>}/>
+        <Route path="/shoppingCart/" element={<Home/>}/>
+        <Route path="/shoppingCart/store" element={<Store/>}/>
+        <Route path="/shoppingCart/about" element={<About/>}/>
         </Routes>
         
             </Container>
