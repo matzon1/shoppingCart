@@ -12,7 +12,7 @@ function App() {
   return (
     <ShoppingCartProvider>
     <NavBar/>
-    <Container className="mb-4">
+
 
       <Routes>
         <Route path="/shoppingCart/" element={<Home/>}/>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/shoppingCart/about" element={<About/>}/>
         </Routes>
         
-            </Container>
+
             </ShoppingCartProvider>
   )
 }

@@ -13,7 +13,7 @@ export function StoreItem({ id, name, price, imgUrl } : StoreItemsProps) {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart} = useShoppingCart()
     const quantity = getItemQuantity(id)
 
-    return <Card className="h-100">
+    return <Card className="h-100 border border-warning">
         <Card.Img variant="top" src={imgUrl} height='200px'  style={{ objectFit: "cover" }}/>
 
         <Card.Body className="d-flex flex-column">
@@ -24,7 +24,7 @@ export function StoreItem({ id, name, price, imgUrl } : StoreItemsProps) {
             </Card.Title>
             <div className="mt-auto">
                 { quantity === 0 ? (
-                    <Button className="w-100" onClick={() => increaseCartQuantity(id)}> Add to Cart</Button>
+                    <Button className="w-100" variant="warning" onClick={() => increaseCartQuantity(id)}> Add to Cart</Button>
 
                 ) : <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem"}}>
                     

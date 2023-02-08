@@ -1,0 +1,46 @@
+.bg {
+    background-image: url('/public/imgs/about-wp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+.parrafo-nosotros {
+    text-align: justify;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.title {
+    padding-left: 13%;
+}
+.contact {
+    padding-left: 17%;
+}
+
+.icons {
+    padding-left: 15.5%;
+}
+.parrafo-nosotros p {
+    padding-left: 4%;
+    width: 40%;
+    font-size: 17px;
+}
+
+.instagram, .facebook, .whatsapp {
+    font-size: 50px;
+    font-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.whatsapp:hover {
+    color: green;
+}
+
+.instagram:hover {
+    color: #833AB4
+}

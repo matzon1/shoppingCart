@@ -1,56 +1,56 @@
 [
     {
       "id": 1,
-      "name": "Book",
+      "name": "Frutos Secos",
       "price": 10.99,
-      "imgUrl": "imgs/book.jpg"
+      "imgUrl": "imgs/frutosSecos.jpg"
     },
     {
       "id": 2,
-      "name": "Computer",
+      "name": "Cereales",
       "price": 1199,
-      "imgUrl": "imgs/computer.jpg"
+      "imgUrl": "imgs/cereales.jpg"
     },
     {
       "id": 3,
-      "name": "Banana",
-      "price": 1.05,
-      "imgUrl": "imgs/banana.jpg"
+      "name": "Cereales Apto Celíacos",
+      "price": 105,
+      "imgUrl": "imgs/cerealac.jpg"
     },
     {
       "id": 4,
-      "name": "Car",
-      "price": 14000,
-      "imgUrl": "imgs/car.jpg"
+      "name": "Cereales Apto Diabéticos",
+      "price": 140,
+      "imgUrl": "imgs/cerealesad.jpg"
     },
     {
       "id": 5,
-      "name": "Mouse",
+      "name": "Miel",
       "price": 14,
-      "imgUrl": "imgs/mouse.jpg"
+      "imgUrl": "imgs/miel.jpg"
     },
     {
       "id": 6,
-      "name": "Keyboard",
-      "price": 20,
-      "imgUrl": "imgs/teclado.jpg"
+      "name": "Snacks",
+      "price": 120,
+      "imgUrl": "imgs/snacks.jpg"
     },
     {
       "id": 7,
-      "name": "Gpu",
-      "price": 25000,
-      "imgUrl": "imgs/gpu.jpg"
+      "name": "Granola",
+      "price": 250,
+      "imgUrl": "imgs/granola.jpg"
     },
     {
       "id": 8,
-      "name": "Shirt",
+      "name": "Mermeladas",
       "price": 90,
-      "imgUrl": "imgs/rmadrid.jpg"
+      "imgUrl": "imgs/mermeladas.jpg"
     },
     {
       "id": 9,
-      "name": "Boots",
+      "name": "Sales",
       "price": 120,
-      "imgUrl": "imgs/boots.jpg"
+      "imgUrl": "imgs/sales.jpg"
     }
   ]

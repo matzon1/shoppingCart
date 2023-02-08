@@ -5,18 +5,25 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 export function NavBar() {
   const { openCart, cartQuantity } = useShoppingCart();
   return (
-    <NavbarBS sticky="top" className="bg-white shadow-sm mb-3">
+    <NavbarBS sticky="top" className="bg-white shadow-sm mb-1">
       <Container className="me-auto">
-        <Nav>
+        <Nav >
+          <div className="d-flex justify-content-center">
           <Nav.Link to="/shoppingCart" as={NavLink}>
-            Home
+            <img width="60px" src="./imgs/atix-logo.jpg"/>
+          </Nav.Link>
+          <div className="d-flex align-items-center display-10">
+          <Nav.Link to="/shoppingCart" as={NavLink}>
+            Inicio
           </Nav.Link>
           <Nav.Link to="/shoppingCart/store" as={NavLink}>
-            Store
+            Tienda
           </Nav.Link>
           <Nav.Link to="/shoppingCart/about" as={NavLink}>
-            About
+            Sobre Nosotros
           </Nav.Link>
+          </div>
+          </div>
         </Nav>
         {cartQuantity > 0 && (
           <Button
