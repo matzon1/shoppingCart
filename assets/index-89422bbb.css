@@ -1,4 +1,4 @@
-@charset "UTF-8";/*!
+@charset "UTF-8";.home-container{position:relative;text-align:center;color:#fff}.centered{position:absolute;width:20%;top:64%;left:50%;transform:translate(-50%,-50%)}.carousel-control-next,.carousel-control-prev{display:none!important}.bg{background-image:url(/shoppingCart/assets/about-wp-2ea2cbfa.jpg);background-repeat:no-repeat;background-size:cover;height:90vh}.parrafo-nosotros{text-align:justify;width:100%;align-items:center;justify-content:flex-start;display:flex}.title{padding-left:13%}.contact{padding-left:17%}.icons{padding-left:15.5%}.parrafo-nosotros p{padding-left:4%;width:40%;font-size:17px}.instagram,.facebook,.whatsapp{font-size:50px;font-style:none;color:#000;cursor:pointer}.whatsapp:hover{color:green}.instagram:hover{color:#833ab4}/*!
 * Bootstrap  v5.2.3 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
 * Copyright 2011-2022 Twitter, Inc.
