@@ -4,8 +4,8 @@ import "../styles/Home.css";
 export function Home() {
   return <>
   <div className="home-container" >
-  <img src="/imgs/aas.jpg"/>
-  <img src="/imgs/atix-naranja.png" className="centered"/>
+  <img src="imgs/aas.jpg"/>
+  <img src="imgs/atix-naranja.png" className="centered"/>
   </div>
 {/*   <div className="carousel-container">
   <h1> Nuestros productos</h1> */}
